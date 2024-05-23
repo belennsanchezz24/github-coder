@@ -16,6 +16,7 @@ header a {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
 }
 
 header a:hover{
@@ -31,3 +32,36 @@ header li {
   margin: 5px;
 
 }
+
+section img {
+    width: 100%;
+}
+
+section {
+    display: flex;
+}
+
+section div:nth-child(1) {
+    width: 50%;
+ }
+
+section div:nth-child(1) h1{
+   color: #6C4390;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+section div:nth-child(1) p{
+    background-color: red;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+ }
+ 
+ section div:nth-child(2) a {
+    background-color: #6C4390;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
