@@ -9,12 +9,17 @@ header {
     display: flex;
     justify-content:space-between ;
     align-items: center;
+    padding: 15px;
 }
 
 header a {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+header a:hover{
+margin: 5px
 }
 
 header ul {
